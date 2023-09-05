@@ -1,0 +1,4 @@
+sudo su - ansible << EOF
+cd .ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9/u8bTA3Trxk74wkRRdcW+234cCpajHB/dHEV7l/9fqsRVqzve6d8+f1boGXmArhjttnEMspOG4eYpdKU4oaMzHwA5PGZSqreEMCMncCuUwC90EuWRF1gjgqlH0HtvcXCkISuBOIakjZPXUrbn+gmE63zIY3UzAtXbx4EaxsmjJJ5viSbMOmdob49N+welK6rpLPqZKAA8NR80vp7WEZxoLWyWTi3S3PPElB/uN7Xy7MbQ+fKJySt3djKsi/0PZAP/+3xfOfb6wbwJ+/mo1WhP5kVyGT9BwgCxASPABi6cDCcXYAo22aTJ+d4i+BFeCdWXCZUPYidSeRBz8jkj+C+tOOxKoYfiHFL9CIaOX0ttC2awiB2xivIXbr+eU3AoP18dlHaGl2HystCg5lwOCun/Wkj0VIx4BeMXGBGOl+05G/b+99+LezcSGqWSWk9ix5SjjhBfPN/KkUzu3pW2z7X+Vg96wPaZ0WUqL+M/1cvcFQlZMGsMWbu2TO9y4jXMh0= ansible@ip-172-31-36-150.ec2.internal" >id_rsa.pub
+chmod 440 id_rsa.pub
