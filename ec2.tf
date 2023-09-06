@@ -37,6 +37,7 @@ resource "aws_instance" "rhel-hosts" {
   }
 }
 
+##Below data source allow to run 2 scripts or more on userdata
 
 data "template_cloudinit_config" "user-data" {
   part {
